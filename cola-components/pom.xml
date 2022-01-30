@@ -61,6 +61,22 @@
         <module>cola-component-test-container</module>
     </modules>
 
+    <profiles>
+        <profile>
+            <id>coding</id>
+            <distributionManagement>
+                <repository>
+                    <id>coding</id>
+                    <url>https://shiyindaxiaojie-maven.pkg.coding.net/repository/eden-lab/maven/</url>
+                </repository>
+                <snapshotRepository>
+                    <id>coding</id>
+                    <url>https://shiyindaxiaojie-maven.pkg.coding.net/repository/eden-lab/maven/</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </profile>
+    </profiles>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
